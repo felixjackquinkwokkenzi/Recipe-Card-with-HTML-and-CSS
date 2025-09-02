@@ -1,0 +1,77 @@
+body {
+  background-color: #f2e4e9;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+  border-radius: 16px;
+  color: #070705;
+  line-height: 1.5;
+  width: 22rem;
+}
+
+.card img {
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
+  margin-bottom: 1.55rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.5rem 0.5rem;
+  font-size: 13px;
+}
+
+.dish-type {
+  font-weight: 600;
+  letter-spacing: -0.25px;
+  color: #fff;
+  margin: 0;
+  background-color: #bb5274;
+  padding: 0.25rem 1rem;
+  border-radius: 100px;
+}
+
+.info-right {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.info-right div {
+  display: flex;
+  align-items: center;
+}
+
+.info-right div:first-child {
+  margin-right: 1rem;
+}
+
+.info-right svg {
+  margin-right: 0.5rem;
+}
+
+.info-right svg path {
+  stroke: #070705;
+  stroke-opacity: 0.25;
+}
+
+.card p {
+  margin: 0 1.5rem 2rem 1.5rem;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
