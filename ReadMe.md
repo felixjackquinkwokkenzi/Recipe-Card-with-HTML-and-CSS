@@ -3,6 +3,9 @@
 A simple recipe card component built with **HTML** and **CSS**.  
 This project demonstrates how to design a clean and modern card layout with shadows, rounded corners, and styled details suitable for food-related content.
 
+# Live Demo
+👉 [Live Demo](https://felixjackquinkwokkenzi.github.io/Recipe-Card-with-HTML-and-CSS/)
+
 ## ✨ Features
 
 - Modern card layout with shadows and rounded corners
